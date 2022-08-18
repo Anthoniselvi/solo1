@@ -1,0 +1,76 @@
+body{
+    color: black;
+    font-family: cursive;
+    margin: 0;
+    background: rgba(232,210,196,255);
+}
+.container{
+    scroll-behavior: auto;
+}
+.header{
+    background-image: url("images/spices.jfif");   
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: white;
+    font-weight: 500;
+    height: 130px;
+    margin-top: -1.2em;
+}
+.section{
+       text-align: center;
+}
+h1, h2, h3, p{
+    text-shadow: 0 0 2px red;
+    text-align: center;
+}
+.pdt{
+    display: flex;
+    justify-content: space-around;
+}
+.box1{
+    width: 300px;
+    height: 300px;
+}
+.box2{
+    width: 300px;
+    height: 300px;
+}
+.box3{
+    width: 300px;
+    height: 300px;
+}
+#pdt1{
+    border: 5px solid rgba(242,159,117,255);
+    border-radius: 50%;
+}
+#pdt2{
+    border: 5px solid rgba(242,159,117,255);
+    border-radius: 50%;
+}
+#pdt3{
+    border: 5px solid rgba(242,159,117,255);
+    border-radius: 50%;
+}
+.footer{
+    display: flex;
+    text-align: center;
+    justify-content: space-between;
+    border: 2px solid red;
+    border-radius: 10px;
+    width: 550px;
+    margin: 0 auto;
+    align-items: center;
+    margin-bottom: 2em;
+}
+img{
+    width: 150px;
+    border-radius: 50%;
+    border: 2px solid rgba(242,159,117,255);
+}
+.fa {
+    padding: 20px;
+    font-size: 30px;
+    width: 50px;
+    text-align: center;
+    text-decoration: none;
+  }
+  
